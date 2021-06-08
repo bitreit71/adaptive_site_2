@@ -1,0 +1,460 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+	<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+	<head>
+		<!-- Заголовок страницы в браузере -->
+		<title>Тестовое задание_Виктор</title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+		<!-- Подключаем CSS -->
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="ipad-style.css" />
+		<link rel="stylesheet" href="mobile-style.css" />
+		<!-- Кодировка страницы -->
+		<meta http-equiv="Content-type"wz content="text/html;charset=UTF-8" />
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!-- Отображаемое тело страницы -->
+	<body>
+		<div class="header">
+			<div class="header__menu-container">
+					<div class="header__burger-1">
+						<span></span>
+					</div>
+					<ul class="header__menu-1">
+						<li><a href="#">Контакты</a></li>
+						<li><a href="#">Доставка и оплата</a></li>
+						<li><a href="#">Блог</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Аренда</a></li>
+						<li><a href="#">Вход в кабинет</a></li>
+					</ul>
+			</div>
+			<div class="header__middle-block">
+				<div class="container">
+					<div class="container__logo">
+						<img src="logo-footer.png" alt="logo" class="header__logo">
+					</div>
+					<div class="container__phone">
+				  			<select name="phone" class="container__choice-phone">
+  								<option value="ph-1">+38067-191-31-51</option>
+  								<option value="ph-2">+38067-191-31-51</option>
+  								<option value="ph-3">+38067-191-31-51</option>	
+  							</select>
+					</div>
+					<div class="container__search">
+  						<form action="#" method="get" class="form__search">
+  							<input type="text" name="search" class="input__search"placeholder="Поиск по сайту">
+  							<button name="submit" class="container__ok" type="submit">Поиск</button>
+  						</form>
+					</div>
+  					<div class="container__buy">
+  						<a href="#"><img src="fav_bask.jpg" alt="fav-bask" class="container__fav-bask"></a>
+  					</div>
+  					<div class="container__languare">
+  						<select name="languare" class="container__choice-languare">
+  							<option value="ru">RU</option>
+  							<option value="ua">UA</option>
+  							<option value="en">EN</option>	
+  						</select>
+  					</div>
+				</div>			
+			</div>
+			<div class="header__lower-block">
+				<ul class="header__menu-2">
+						<li><a href="">Ткани</a></li>
+						<li><a href="">Фурнитура</a></li>
+						<li><a href="">По применению</a></li>
+						<li><a href="">Акции</a></li>
+						<li><a href="">Ателье</a></li>
+				</ul>
+			</div>
+		</div>
+			<div class="product">
+				<div class="product-category">
+					<div class="categories">
+						<a href="#">TEXITILE PLACE</a> >
+						<a href="#">Ткани</a>
+						<h2>Ткани</h2>
+					</div>
+				</div>
+				<div class="product__container">
+					<div class="header__burger-2">
+						<button class="header__link-filter"><font color="#fff">Фильтр товаров</font></button>
+					</div>	
+					<div class="product__filters-block">
+						<div class="product__filters-1"><p>Ткани</p>
+							<input type="checkbox" name="select" class="product__select">Атласные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Рубашечно-блузочные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Костюмно-плательные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Жаккардовые ткани<br>
+							<input type="checkbox" name="select" class="product__select">Пальтовые ткани ткани<br>
+							<input type="checkbox" name="select" class="product__select">Курточные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Ворсовые ткани<br>
+							<input type="checkbox" name="select" class="product__select">Атласные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Льняные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Кружевные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Подкладочные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Трикотажные ткани<br>
+							<input type="checkbox" name="select" class="product__select">Крепдешин<br>
+							<input type="checkbox" name="select" class="product__select">Шифон<br>
+							<input type="checkbox" name="select" class="product__select">Органза<br>
+							<input type="checkbox" name="select" class="product__select">Сетка<br>
+							<input type="checkbox" name="select" class="product__select">Тафта<br>
+							<input type="checkbox" name="select" class="product__select">Фатин<br>
+							<input type="checkbox" name="select" class="product__select">Кожа<br>
+							<input type="checkbox" name="select" class="product__select">Мех<br>
+							<input type="checkbox" name="select" class="product__select">Прикладные материалы<br>
+						</div>
+						<div class="product__filters-2"><p>Состав</p>
+							<input type="checkbox" name="select" class="product__select">Эластан<br>
+							<input type="checkbox" name="select" class="product__select">Полиестер<br>
+						</div>		
+						<div class="product__filters-3">
+							<div class="filter_1">
+								<p>Ширина:</p>
+								<div class="filter-interval">
+							    	<label><input type="text" name="min-interval" value="0"></label>
+							    	<label><input type="text" name="max-interval" value="15000"></label>
+							    	<label><button type="submit">ОК</button></label>
+								</div>	
+							  	<div class="filter-range-wrapper">
+							    	<div class="filter-range">
+								      	<div class="filter-range-scale">
+								        	<div class="filter-range-bar"></div>
+								      	</div>
+								      	<button class="filter-range-handle min"></button>
+								      	<button class="filter-range-handle max" style="left: 75%;"></button>
+							    	</div>
+								</div>
+							</div>
+							<div class="filter_2">
+								<p>Плотность (Г/М2):</p>
+								<div class="filter-interval">
+							    	<label><input type="text" name="min-interval" value="0"></label>
+							    	<label><input type="text" name="max-interval" value="15000"></label>
+							    	<label><button type="submit">ОК</button></label>
+								</div>	
+							  	<div class="filter-range-wrapper">
+							    	<div class="filter-range">
+								      	<div class="filter-range-scale">
+								        	<div class="filter-range-bar"></div>
+								      	</div>
+								      	<button class="filter-range-handle min"></button>
+								      	<button class="filter-range-handle max" style="left: 75%;"></button>
+							    	</div>
+								</div>
+							</div>
+							<div class="filter_3">
+								<p>Цвет:</p>
+								<div class="filter-color">
+							    	<div class="color_1"></div>
+							    	<div class="color_2"></div>
+							    	<div class="color_3"></div>
+							    	<div class="color_4"></div>
+							    	<div class="color_5"></div>
+								</div>	
+							</div>
+							<div class="filter_4">
+								<p>Цена:</p>
+								<div class="filter-interval">
+							    	<label><input type="text" name="min-interval" value="0"></label>
+							    	<label><input type="text" name="max-interval" value="15000"></label>
+							    	<label><button type="submit">ОК</button></label>
+								</div>	
+							  	<div class="filter-range-wrapper">
+							    	<div class="filter-range">
+								      	<div class="filter-range-scale">
+								        	<div class="filter-range-bar"></div>
+								      	</div>
+								      	<button class="filter-range-handle min"></button>
+								      	<button class="filter-range-handle max" style="left: 75%;"></button>
+							    	</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="product__filters-4">
+						<p class="filter-sort">Сортировать по:</p>
+						<ul class="product__filter-sort">
+							<li>Цена</li>
+							<li>Рейтинг</li>
+							<li>Дата добавления</li>
+						</ul>
+						<div class="product__slider">
+							<img src="slider.jpg" alt="slider" class="product__img">
+						</div>
+						<div class="product__column">
+							<div class="product__row-1">
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+							</div>
+							<div class="product__row-2">
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+							</div>
+							<div class="product__row-3">
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% zA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+							</div>
+							<div class="product__row-4">
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+							</div>
+							<div class="product__row-5">
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+								<div class="product__unit">
+									<div class="product__content">
+										<img src="product.jpg" alt="product" class="product__product">
+										<h3>Атлас однотонный</h3>
+										<p class="data">962/2013</p>
+										<p class="structure">Состав: 97 % SE; 3% EA</p>
+										<p class="price-no_discount">90 грн.</p>
+										<p class="price-discount">80 грн.</p>
+										<button class="buy"><font color="#fff">Купить</font></button>
+									</div>
+								</div>
+							</div>
+						</div>	
+						<div class="product__pages">
+							<a href="#">Больше товаров</a>
+							<a href="">1</a>
+							<a href="">2</a>
+							<a href="">3</a>
+							<a href="">..........</a>
+							<a href="">8</a>
+							<a href="">9</a>
+						</div>			
+					</div>			
+				</div>
+			</div>
+			<div class="cf">
+				<div class="contact-form-1">
+					<p class="contact-form-1__description">Подпишиcь чтобы первым узнавать о новинках</p>
+					<form action="#" method="get" class="contact-form__form">
+						<input placeholder="e-mail" type="text" name="email" class="contact-form__email">
+						<input placeholder=имя type="text" name="name" class="contact-form__name">
+						<input type="submit" name="send" class="contact-form__send">
+					</form>
+				</div>
+				<div class="contact-form-2">
+					<p class="contact-form-2__description">Аренда торговых площадей</p>
+					<div class="contact-form-2__blocks">
+						<div class="contact-form-2__block1">
+							<p>TEXTILE PLACE</p>
+							<p>Магазин тканей - 2 000 м2</p>
+						</div>
+						<div class="contact-form-2__block2">
+							<p>Киев, ул. Боженко</p>
+							<p>Info@ludmila.com.ua</p>
+						</div>
+					</div>
+				</div>
+			</div>	
+			<div class="footer">
+				<div class="container-1">
+					<div class="footer__row">
+						<div class="footer__column-1">
+							<img src="logo-footer.png" alt="logo" class="footer__logo">
+							<ul class="footer__one">
+								<li>TEXTILE PLACE</li>
+								<li>Магазин тканей - 2 000 м2</li>
+							</ul>
+						</div>
+						<div class="footer__column-2">
+							<ul class="footer__two">
+								<li>Контакты</li>
+								<li>Доставка и оплата</li>
+								<li>О компании</li>
+								<li>Аренда</li>
+							</ul>
+						</div>
+						<div class="footer__column-3">
+							<ul class="footer__three">
+								<li>Ткани</li>
+								<li>Фурнитура</li>
+								<li>По применению</li>
+								<li>Акции</li>
+								<li>Ателье</li>
+							</ul>
+						</div>
+						<div class="footer__column-4">
+							<ul class="footer__four">
+								<li>График работы:</li>
+								<li>Пн.-Пт. с 9.00 до 18.00</li>
+								<li>Сб.-Вс.- ВЫХОДНОЙ</li>
+							</ul>
+						</div>
+						<div class="footer__column-5">
+							<ul class="footer__five">
+								<li>Адрес:</li>
+								<li>г. Киев ул. Боженко</li>
+								<li>Почта:</li>
+								<li>info@ludmila.com.ua</li>
+							</ul>
+						</div>
+						<div class="footer__column-6">
+							<ul class="footer__six">
+								<li>Телефон:</li>
+								<li>+38 067 191 31 51</li>
+								<li>Мы в социальных сетях:</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		<div class="container-2">
+			<p>© Все права защищены. 2021</p>
+		</div>
+	</div>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
